@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5220F76B1E23993B00072515 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5220F76A1E23993B00072515 /* main.m */; };
+		5220F76E1E23993C00072515 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5220F76D1E23993C00072515 /* AppDelegate.m */; };
+		5220F7711E23993C00072515 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5220F7701E23993C00072515 /* ViewController.m */; };
+		5220F7741E23993C00072515 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5220F7721E23993C00072515 /* Main.storyboard */; };
+		5220F7771E23993C00072515 /* NSuserDefaultsUsingLoginPage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5220F7751E23993C00072515 /* NSuserDefaultsUsingLoginPage.xcdatamodeld */; };
+		5220F7791E23993C00072515 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5220F7781E23993C00072515 /* Assets.xcassets */; };
+		5220F77C1E23993C00072515 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5220F77A1E23993C00072515 /* LaunchScreen.storyboard */; };
+		5220F7871E23993D00072515 /* NSuserDefaultsUsingLoginPageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5220F7861E23993D00072515 /* NSuserDefaultsUsingLoginPageTests.m */; };
+		5220F7921E23993E00072515 /* NSuserDefaultsUsingLoginPageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5220F7911E23993E00072515 /* NSuserDefaultsUsingLoginPageUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5220F7831E23993C00072515 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5220F75E1E23993B00072515 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5220F7651E23993B00072515;
+			remoteInfo = NSuserDefaultsUsingLoginPage;
+		};
+		5220F78E1E23993D00072515 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5220F75E1E23993B00072515 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5220F7651E23993B00072515;
+			remoteInfo = NSuserDefaultsUsingLoginPage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5220F7661E23993B00072515 /* NSuserDefaultsUsingLoginPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSuserDefaultsUsingLoginPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5220F76A1E23993B00072515 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5220F76C1E23993C00072515 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5220F76D1E23993C00072515 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5220F76F1E23993C00072515 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5220F7701E23993C00072515 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5220F7731E23993C00072515 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5220F7761E23993C00072515 /* NSuserDefaultsUsingLoginPage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NSuserDefaultsUsingLoginPage.xcdatamodel; sourceTree = "<group>"; };
+		5220F7781E23993C00072515 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5220F77B1E23993C00072515 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5220F77D1E23993C00072515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5220F7821E23993C00072515 /* NSuserDefaultsUsingLoginPageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSuserDefaultsUsingLoginPageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5220F7861E23993D00072515 /* NSuserDefaultsUsingLoginPageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSuserDefaultsUsingLoginPageTests.m; sourceTree = "<group>"; };
+		5220F7881E23993D00072515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5220F78D1E23993D00072515 /* NSuserDefaultsUsingLoginPageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSuserDefaultsUsingLoginPageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5220F7911E23993E00072515 /* NSuserDefaultsUsingLoginPageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSuserDefaultsUsingLoginPageUITests.m; sourceTree = "<group>"; };
+		5220F7931E23993E00072515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5220F7631E23993B00072515 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5220F77F1E23993C00072515 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5220F78A1E23993D00072515 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5220F75D1E23993B00072515 = {
+			isa = PBXGroup;
+			children = (
+				5220F7681E23993B00072515 /* NSuserDefaultsUsingLoginPage */,
+				5220F7851E23993D00072515 /* NSuserDefaultsUsingLoginPageTests */,
+				5220F7901E23993D00072515 /* NSuserDefaultsUsingLoginPageUITests */,
+				5220F7671E23993B00072515 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5220F7671E23993B00072515 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5220F7661E23993B00072515 /* NSuserDefaultsUsingLoginPage.app */,
+				5220F7821E23993C00072515 /* NSuserDefaultsUsingLoginPageTests.xctest */,
+				5220F78D1E23993D00072515 /* NSuserDefaultsUsingLoginPageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5220F7681E23993B00072515 /* NSuserDefaultsUsingLoginPage */ = {
+			isa = PBXGroup;
+			children = (
+				5220F76C1E23993C00072515 /* AppDelegate.h */,
+				5220F76D1E23993C00072515 /* AppDelegate.m */,
+				5220F76F1E23993C00072515 /* ViewController.h */,
+				5220F7701E23993C00072515 /* ViewController.m */,
+				5220F7721E23993C00072515 /* Main.storyboard */,
+				5220F7781E23993C00072515 /* Assets.xcassets */,
+				5220F77A1E23993C00072515 /* LaunchScreen.storyboard */,
+				5220F77D1E23993C00072515 /* Info.plist */,
+				5220F7751E23993C00072515 /* NSuserDefaultsUsingLoginPage.xcdatamodeld */,
+				5220F7691E23993B00072515 /* Supporting Files */,
+			);
+			path = NSuserDefaultsUsingLoginPage;
+			sourceTree = "<group>";
+		};
+		5220F7691E23993B00072515 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5220F76A1E23993B00072515 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5220F7851E23993D00072515 /* NSuserDefaultsUsingLoginPageTests */ = {
+			isa = PBXGroup;
+			children = (
+				5220F7861E23993D00072515 /* NSuserDefaultsUsingLoginPageTests.m */,
+				5220F7881E23993D00072515 /* Info.plist */,
+			);
+			path = NSuserDefaultsUsingLoginPageTests;
+			sourceTree = "<group>";
+		};
+		5220F7901E23993D00072515 /* NSuserDefaultsUsingLoginPageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5220F7911E23993E00072515 /* NSuserDefaultsUsingLoginPageUITests.m */,
+				5220F7931E23993E00072515 /* Info.plist */,
+			);
+			path = NSuserDefaultsUsingLoginPageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5220F7651E23993B00072515 /* NSuserDefaultsUsingLoginPage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5220F7961E23993E00072515 /* Build configuration list for PBXNativeTarget "NSuserDefaultsUsingLoginPage" */;
+			buildPhases = (
+				5220F7621E23993B00072515 /* Sources */,
+				5220F7631E23993B00072515 /* Frameworks */,
+				5220F7641E23993B00072515 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSuserDefaultsUsingLoginPage;
+			productName = NSuserDefaultsUsingLoginPage;
+			productReference = 5220F7661E23993B00072515 /* NSuserDefaultsUsingLoginPage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5220F7811E23993C00072515 /* NSuserDefaultsUsingLoginPageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5220F7991E23993E00072515 /* Build configuration list for PBXNativeTarget "NSuserDefaultsUsingLoginPageTests" */;
+			buildPhases = (
+				5220F77E1E23993C00072515 /* Sources */,
+				5220F77F1E23993C00072515 /* Frameworks */,
+				5220F7801E23993C00072515 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5220F7841E23993C00072515 /* PBXTargetDependency */,
+			);
+			name = NSuserDefaultsUsingLoginPageTests;
+			productName = NSuserDefaultsUsingLoginPageTests;
+			productReference = 5220F7821E23993C00072515 /* NSuserDefaultsUsingLoginPageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5220F78C1E23993D00072515 /* NSuserDefaultsUsingLoginPageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5220F79C1E23993E00072515 /* Build configuration list for PBXNativeTarget "NSuserDefaultsUsingLoginPageUITests" */;
+			buildPhases = (
+				5220F7891E23993D00072515 /* Sources */,
+				5220F78A1E23993D00072515 /* Frameworks */,
+				5220F78B1E23993D00072515 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5220F78F1E23993D00072515 /* PBXTargetDependency */,
+			);
+			name = NSuserDefaultsUsingLoginPageUITests;
+			productName = NSuserDefaultsUsingLoginPageUITests;
+			productReference = 5220F78D1E23993D00072515 /* NSuserDefaultsUsingLoginPageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5220F75E1E23993B00072515 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = test;
+				TargetAttributes = {
+					5220F7651E23993B00072515 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					5220F7811E23993C00072515 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5220F7651E23993B00072515;
+					};
+					5220F78C1E23993D00072515 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5220F7651E23993B00072515;
+					};
+				};
+			};
+			buildConfigurationList = 5220F7611E23993B00072515 /* Build configuration list for PBXProject "NSuserDefaultsUsingLoginPage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5220F75D1E23993B00072515;
+			productRefGroup = 5220F7671E23993B00072515 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5220F7651E23993B00072515 /* NSuserDefaultsUsingLoginPage */,
+				5220F7811E23993C00072515 /* NSuserDefaultsUsingLoginPageTests */,
+				5220F78C1E23993D00072515 /* NSuserDefaultsUsingLoginPageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5220F7641E23993B00072515 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5220F77C1E23993C00072515 /* LaunchScreen.storyboard in Resources */,
+				5220F7791E23993C00072515 /* Assets.xcassets in Resources */,
+				5220F7741E23993C00072515 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5220F7801E23993C00072515 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5220F78B1E23993D00072515 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5220F7621E23993B00072515 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5220F7711E23993C00072515 /* ViewController.m in Sources */,
+				5220F7771E23993C00072515 /* NSuserDefaultsUsingLoginPage.xcdatamodeld in Sources */,
+				5220F76E1E23993C00072515 /* AppDelegate.m in Sources */,
+				5220F76B1E23993B00072515 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5220F77E1E23993C00072515 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5220F7871E23993D00072515 /* NSuserDefaultsUsingLoginPageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5220F7891E23993D00072515 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5220F7921E23993E00072515 /* NSuserDefaultsUsingLoginPageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5220F7841E23993C00072515 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5220F7651E23993B00072515 /* NSuserDefaultsUsingLoginPage */;
+			targetProxy = 5220F7831E23993C00072515 /* PBXContainerItemProxy */;
+		};
+		5220F78F1E23993D00072515 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5220F7651E23993B00072515 /* NSuserDefaultsUsingLoginPage */;
+			targetProxy = 5220F78E1E23993D00072515 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5220F7721E23993C00072515 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5220F7731E23993C00072515 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5220F77A1E23993C00072515 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5220F77B1E23993C00072515 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5220F7941E23993E00072515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5220F7951E23993E00072515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5220F7971E23993E00072515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NSuserDefaultsUsingLoginPage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Neorays.helloEx.NSuserDefaultsUsingLoginPage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5220F7981E23993E00072515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NSuserDefaultsUsingLoginPage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Neorays.helloEx.NSuserDefaultsUsingLoginPage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5220F79A1E23993E00072515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NSuserDefaultsUsingLoginPageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Neorays.helloEx.NSuserDefaultsUsingLoginPageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSuserDefaultsUsingLoginPage.app/NSuserDefaultsUsingLoginPage";
+			};
+			name = Debug;
+		};
+		5220F79B1E23993E00072515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NSuserDefaultsUsingLoginPageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Neorays.helloEx.NSuserDefaultsUsingLoginPageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSuserDefaultsUsingLoginPage.app/NSuserDefaultsUsingLoginPage";
+			};
+			name = Release;
+		};
+		5220F79D1E23993E00072515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NSuserDefaultsUsingLoginPageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Neorays.helloEx.NSuserDefaultsUsingLoginPageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NSuserDefaultsUsingLoginPage;
+			};
+			name = Debug;
+		};
+		5220F79E1E23993E00072515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NSuserDefaultsUsingLoginPageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Neorays.helloEx.NSuserDefaultsUsingLoginPageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NSuserDefaultsUsingLoginPage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5220F7611E23993B00072515 /* Build configuration list for PBXProject "NSuserDefaultsUsingLoginPage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5220F7941E23993E00072515 /* Debug */,
+				5220F7951E23993E00072515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5220F7961E23993E00072515 /* Build configuration list for PBXNativeTarget "NSuserDefaultsUsingLoginPage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5220F7971E23993E00072515 /* Debug */,
+				5220F7981E23993E00072515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5220F7991E23993E00072515 /* Build configuration list for PBXNativeTarget "NSuserDefaultsUsingLoginPageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5220F79A1E23993E00072515 /* Debug */,
+				5220F79B1E23993E00072515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5220F79C1E23993E00072515 /* Build configuration list for PBXNativeTarget "NSuserDefaultsUsingLoginPageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5220F79D1E23993E00072515 /* Debug */,
+				5220F79E1E23993E00072515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5220F7751E23993C00072515 /* NSuserDefaultsUsingLoginPage.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5220F7761E23993C00072515 /* NSuserDefaultsUsingLoginPage.xcdatamodel */,
+			);
+			currentVersion = 5220F7761E23993C00072515 /* NSuserDefaultsUsingLoginPage.xcdatamodel */;
+			path = NSuserDefaultsUsingLoginPage.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5220F75E1E23993B00072515 /* Project object */;
+}
