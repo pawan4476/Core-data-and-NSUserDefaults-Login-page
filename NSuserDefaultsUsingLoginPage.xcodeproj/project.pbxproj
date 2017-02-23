@@ -16,6 +16,7 @@
 		5220F77C1E23993C00072515 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5220F77A1E23993C00072515 /* LaunchScreen.storyboard */; };
 		5220F7871E23993D00072515 /* NSuserDefaultsUsingLoginPageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5220F7861E23993D00072515 /* NSuserDefaultsUsingLoginPageTests.m */; };
 		5220F7921E23993E00072515 /* NSuserDefaultsUsingLoginPageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5220F7911E23993E00072515 /* NSuserDefaultsUsingLoginPageUITests.m */; };
+		5220F7A11E239C4700072515 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5220F7A01E239C4700072515 /* ViewController2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		5220F78D1E23993D00072515 /* NSuserDefaultsUsingLoginPageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSuserDefaultsUsingLoginPageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5220F7911E23993E00072515 /* NSuserDefaultsUsingLoginPageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSuserDefaultsUsingLoginPageUITests.m; sourceTree = "<group>"; };
 		5220F7931E23993E00072515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5220F79F1E239C4700072515 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		5220F7A01E239C4700072515 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				5220F76D1E23993C00072515 /* AppDelegate.m */,
 				5220F76F1E23993C00072515 /* ViewController.h */,
 				5220F7701E23993C00072515 /* ViewController.m */,
+				5220F79F1E239C4700072515 /* ViewController2.h */,
+				5220F7A01E239C4700072515 /* ViewController2.m */,
 				5220F7721E23993C00072515 /* Main.storyboard */,
 				5220F7781E23993C00072515 /* Assets.xcassets */,
 				5220F77A1E23993C00072515 /* LaunchScreen.storyboard */,
@@ -278,6 +283,7 @@
 			files = (
 				5220F7711E23993C00072515 /* ViewController.m in Sources */,
 				5220F7771E23993C00072515 /* NSuserDefaultsUsingLoginPage.xcdatamodeld in Sources */,
+				5220F7A11E239C4700072515 /* ViewController2.m in Sources */,
 				5220F76E1E23993C00072515 /* AppDelegate.m in Sources */,
 				5220F76B1E23993B00072515 /* main.m in Sources */,
 			);

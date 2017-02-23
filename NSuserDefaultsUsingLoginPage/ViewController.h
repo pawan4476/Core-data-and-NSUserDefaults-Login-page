@@ -9,7 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *userNameTF;
 
+@property (weak, nonatomic) IBOutlet UITextField *passwordTF;
+- (IBAction)saveButton:(id)sender;
+- (IBAction)fetchButton:(id)sender;
 
 @end
 
